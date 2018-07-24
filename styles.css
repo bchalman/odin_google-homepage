@@ -1,0 +1,110 @@
+body {
+  background-color: #ffffff;
+  font-size: 18px;
+  font-family: Arial;
+}
+
+ul {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+
+li {
+  display: inline;
+  color: #222;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.leftlist{
+  float: left;
+}
+.rightlist{
+  float: right;
+}
+
+.navbar{
+  padding: 15px;
+  height: 30px;
+}
+
+img {
+  display: inline-block;
+  margin: 0, auto;
+  vertical-align: middle;
+}
+
+#signinlogo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+#googlelogo {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  width: 400px;
+}
+
+input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  width: 800px;
+  height: 3em;
+  background-color;
+  padding-left: 16px;
+  font-size: 20px;
+  border: 1px;
+  box-shadow: 0 2px 6px #bfbfbf;
+}
+
+button {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(117, 117, 117);
+  background-color:rgb(242, 242, 242);
+  height: 3em;
+  width: 180px;
+  font-size: 18px;
+  border: 2px;
+  border-radius: 4px;
+}
+
+.b_container {
+  text-align:center;
+}
+
+a {
+  color: #222;
+  font-style: none;
+  font-family: Arial;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  color: rgba(0,0,0,.54);
+  border: 1px solid #d2d2d2;
+  height: 1.3em;
+  padding: 15px;
+  vertical-align: middle;
+  font-size: 20px;
+}
+
+.foot{
+  color: #777;
+}
