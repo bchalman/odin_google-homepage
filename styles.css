@@ -10,6 +10,7 @@ html body {
 ul {
   list-style-type: none;
   margin:0;
+  padding:0;
 }
 
 li {
@@ -17,6 +18,7 @@ li {
   color: #222;
   margin-right: 20px;
   margin-left: 20px;
+  font-size: 13px;
 }
 
 .leftlist{
@@ -118,6 +120,3 @@ footer {
   color: #777;
 }
 
-.foot .rightlist {
-  padding-right: 25px;
-}
